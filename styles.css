@@ -71,6 +71,12 @@ body {
   /*--------------------------------------------------------------
   # Header
   --------------------------------------------------------------*/
+
+  .ieee-header-logo{
+    float: left;
+    margin: 15px;
+  }
+
   #header {
     background: black;
     transition: all 0.5s;
@@ -131,6 +137,10 @@ body {
     right: 130px;
     position: relative;
     top:50px;
+  }
+
+  .ieee-logo{
+    margin: auto;
   }
 
   /*--------------------------------------------------------------
@@ -409,7 +419,6 @@ body {
 
   #logo{
     margin-left: 15px;
-
   }
   /*--------------------------------------------------------------
   # carousel Section
@@ -574,6 +583,47 @@ body {
     }
   }
   
+  .about-ieee{
+    height: 300px;
+    width: 100%;
+    max-width: 90%;
+    background-color: black;
+    margin: auto;
+    border-radius: 45px;
+  }
+
+  .ieee-logo{
+    float: left;
+    margin-top: 80px;
+    margin-left: 50px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 15px;
+  }
+  .ieee-logo img{
+    height: 100px;
+    width: 150px;
+  }
+
+  .ieee-links{
+    margin: 40px 0 0 120px;
+    padding: 20px;
+    float: left;
+    color: white;
+  }
+
+  .ieee-links li{
+    margin: 10px;
+  }
+
+  .ieee-links ul {
+    list-style-image: url('sqpurple.gif');
+  }
+  
+  .ieee-links h3{
+    margin: 0px 20px;
+  }
+
   /*--------------------------------------------------------------
   # Sections General
   --------------------------------------------------------------*/
@@ -1047,4 +1097,3 @@ body {
     color: #fff;
     text-decoration: none;
   }
-  
